@@ -19,6 +19,7 @@ h1 {
     font-weight: bolder;
     margin: 0 10px;
     font-size: 24px;
+    padding-left: 170px;
 
 }
 
@@ -42,7 +43,6 @@ h1 {
 }
 
 .container {
-    max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
@@ -214,4 +214,13 @@ ul.subtext {
 
  .call {
      font-weight: bolder;
+ }
+
+ .footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #1F2937;
+     padding: 20px;
+     color: #FFFFFF;
  }
