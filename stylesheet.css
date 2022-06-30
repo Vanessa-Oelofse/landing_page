@@ -7,6 +7,8 @@
 
 body {
     line-height: 1.6;
+    
+    
 }
 
 ul {
@@ -95,9 +97,10 @@ button {
     border: 0px;
     color:#FFFFFF;
     font-weight: bold;
-    width: 90px;
-    height: 30px;
+    width: 120px;
+    height: 35px;
     border-radius: 5px;
+    font-size: 17px;
 }
 
 h3 {
@@ -172,3 +175,43 @@ ul.subtext {
     font-weight: bold;
     font-size: 30px;
 }
+
+.another {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.here {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding-right: 70px
+
+}
+.block-four {
+    display: flex;
+    flex-direction:row;
+    background-color: #3882F6;
+    width: 75%;
+    padding: 50px;
+    border-radius: 8px;
+    
+}
+ .texts {
+     display: flex;
+     flex-direction: column;
+     color: #FFFFFF;
+ }
+
+ .white {
+     align-items: center;
+     justify-content: center;
+     border: solid 2px #FFFFFF;
+ }
+
+ .call {
+     font-weight: bolder;
+ }
